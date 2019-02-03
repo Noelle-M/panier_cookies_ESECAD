@@ -43,14 +43,23 @@ if(!empty($_COOKIE))
 }
 
 
-		if($var_sum > 0)
-		{	 
-			echo '<p class="total">Le montant de ton panier est de ' . $var_sum . ' euros</p>';
-			echo'<p><a href="suppcookie.php"> Vider mon panier </a></p>';
+		if(isset($var_sum))
+		{
+			if($var_sum > 0)
+			{	 
+				echo '<p class="total">Le montant de ton panier est de ' . $var_sum . ' euros</p>';
+				echo'<p><a href="suppcookie.php"> Vider mon panier </a></p>';
+			}
+			else
+			{
+				echo '<p class="total">Ton panier est vide !</p>';
+			}
+			
 		}
 		else
 		{
-			echo '<p class="total">Ton panier est vide !</p>';
+			echo '<p class="total center">Ton panier est vide !</p>';
+			echo '<p class="center"><a href="index.php">Retour aux produits</a></p>';
 		}
 echo'</div>
 </div>';
