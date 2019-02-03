@@ -1,0 +1,67 @@
+body
+{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p
+{
+	color: chocolate;
+ 	font-size: 20px;
+}
+
+a
+{
+	color: #BD1447;
+	font-size: 18px;
+}
+
+a:hover
+{
+	color: #402F34;
+}
+
+.card
+{
+	margin-bottom: 15px;
+	padding:25px;
+}
+
+.card-50
+{
+	width: 50%;
+}
+
+h1
+{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.row
+{
+	background-color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+.ombre
+{
+	box-shadow: 10px 10px 8px 12px rgba(0,0,0,0.5)
+}
+
+.radius
+{
+	border-radius: 45px 45px 45px 45px;
+}
+
+.retour, .center
+{
+	text-align: center;
+}
+
+.total
+{
+	background-color: orange; padding: 5px; width: 100%; color: white;
+}
